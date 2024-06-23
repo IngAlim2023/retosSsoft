@@ -1,0 +1,49 @@
+#btn {
+    border-radius: 25px;
+    background-color: orange;
+    width: 10%;
+    height: 25%;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+#btn:active{
+    font-size: larger;
+    background-color: brown;
+    width: 25%;
+}
+#inp{
+    border-color: red;
+}
+#inp:focus{
+    border-color: rgb(32, 0, 128);
+    background-color: black;
+    color: rgb(4, 0, 255);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.551);
+}
+#btnd {
+    background-color: white;
+    border-color: brown;
+    color: black;
+}
+#btnd::after{
+    background-color: black;
+    border: 3px;
+    border-color: brown;
+    color: white;
+}
+#btntres {
+    height: 200px;
+    background-color: blue;
+    color: red;
+}
+#btntres:hover{
+    animation-name: change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes change {
+    0% {background-color: blueviolet;}
+    25% {background-color: brown;}
+    50% {background-color: aquamarine;}
+}
