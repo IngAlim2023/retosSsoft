@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto Login</title>
+    <link rel="stylesheet" href="stylelogin.css">
+</head>
+<body>
+    <div id="contenedor">
+        <div id="card">
+            <div id="card1">
+                <div id="title">
+                    <h1>Bienvenid@s</h1>
+                </div>
+                <div class="in-in">
+                    <input type="text" placeholder="Nombre" id="name-f">
+                </div>
+                <div class="in-in">
+                    <input type="text" placeholder="Apellido" id="name-s">
+                </div>
+                <button id="btn-n" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Ok</button>
+                
+            </div>
+            <hr>
+            <div id="card2">
+                <img id="foto" src="./assets/img/login/fotoM.jpg" >
+    
+            </div>
+            <dialog id="modal">
+                <h3>Bienvenido tus datos son estos:</h3>
+                <div id="campos">
+
+                </div>
+                <button id="close-modal">Cerrar</button>
+            </dialog>
+        </div>
+    </div>
+    <script src="./js/retologin.js"></script>
+</body>
+</html>
