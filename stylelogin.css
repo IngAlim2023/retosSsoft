@@ -73,6 +73,15 @@ body{
     0 0 10px 0 hsl(215, 51%, 70%);
     text-align: center;
 }
+#close-modal{
+    width: 25%;
+    color: hsl(217, 54%, 11%);
+    margin-top: 2%;
+    font-family: "Outfit", sans-serif;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: hsl(215, 51%, 70%);
+}
 @media (width <=1000px){
     #card{
         width: 100%;

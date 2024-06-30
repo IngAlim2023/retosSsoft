@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: hsl(275, 100%, 97%);
+    background-image: url('./assets/img/reto1-js/background-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+#card{
+    background-color: white;
+    margin-top: 15%;
+    width: 40%;
+    border-radius: 20px;
+    font-family: "Work Sans", sans-serif;
+}
+.card-header{
+    margin-left: 3%;
+    display: flex;
+}
+.card-header h1{
+    margin-left: 2%;
+}
+.acor-header{
+    display: flex;
+    align-items: center;
+}
+.acor-header h3{
+    cursor: pointer;
+}
+.acor-header h3:hover{
+    color:purple;
+}
+.acor-header img {
+    justify-content: left;
+}
+#acording{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.acor-body p{
+    color: hsl(292, 16%, 49%);
+}
+@media(width <= 1000px){
+    #card{
+        margin-top: 8%;
+        width: 80%;
+    }
+}
