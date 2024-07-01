@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 30%;
+}
+.card{
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    padding: 8%;
+    margin: 5%;
+    border-radius: 20px;
+    font-family: "Overpass", sans-serif;
+}
+.card-imagen{
+    background-color: hsl(213, 19%, 18%);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0 0 4px 0 hsl(216, 12%, 8%);
+}
+.card-imagen img{
+    width: 20px;
+    height: 20px;
+    margin-top: 22%;
+}
+.card-title{
+    color: white;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.btns p{
+    background-color: hsl(213, 19%, 18%);
+    width: 35px;
+    height: 35px;
+    margin: 5%;
+    text-align: center;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 4px 0 hsl(216, 12%, 8%);
+    cursor: pointer;
+
+}
+.btns p:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+}
+.subm{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+#btn-btn{
+    width: 100%;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    font-weight: bold;
+    font-family: "Overpass", sans-serif;
+}
+#btn-btn:hover{
+    background-color: white;
+}
+#modal{
+    width: 70%;
+    height: 90%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    font-family: "Overpass", sans-serif;
+}
+#md-p{
+    border-radius: 10px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    box-shadow: 0 0 2px 0 hsl(216, 12%, 8%);   
+}
+@media (width <=1000px){
+    .container{
+        width: 95%;
+    }
+}
